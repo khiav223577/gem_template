@@ -1,16 +1,17 @@
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start 'test_frameworks'
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
 require 'gem_template'
 require 'active_record'
-
 require 'minitest/autorun'
 
 ActiveRecord::Base.establish_connection(
   'adapter'  => 'sqlite3',
   'database' => ':memory:',
 )
+
 require 'lib/seeds'
 
 def assert_queries(expected_count, event_key = 'sql.active_record')
