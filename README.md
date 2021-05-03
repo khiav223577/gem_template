@@ -1,7 +1,7 @@
 # gem_template
 
 [![Gem Version](https://img.shields.io/gem/v/gem_template.svg?style=flat)](http://rubygems.org/gems/gem_template)
-[![Build Status](https://travis-ci.com/khiav223577/gem_template.svg?branch=master)](https://travis-ci.org/khiav223577/gem_template)
+[![Build Status](https://github.com/khiav223577/gem_template/workflows/build/badge.svg)](https://github.com/khiav223577/gem_template/actions)
 [![RubyGems](http://img.shields.io/gem/dt/gem_template.svg?style=flat)](http://rubygems.org/gems/gem_template)
 [![Code Climate](https://codeclimate.com/github/khiav223577/gem_template/badges/gpa.svg)](https://codeclimate.com/github/khiav223577/gem_template)
 [![Test Coverage](https://codeclimate.com/github/khiav223577/gem_template/badges/coverage.svg)](https://codeclimate.com/github/khiav223577/gem_template/coverage)
